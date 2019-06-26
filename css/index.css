@@ -4,11 +4,15 @@ body{
 }
 
 .header{
-    display: grid;
-    color:blue;
-    background-image: url("/img/frontimage.jpg");
+color:darkblue;
+}
+
+.header img:last-child{
     width:100%;
-    background-repeat: no-repeat;
+}
+
+.header ul{
+    display:inline;
 }
 
 #toplogo{
@@ -31,10 +35,8 @@ body{
      color:orange;
 }
 
-section .inspirelogos{
-    display:flex;
-    justify-content:space-around;
-color:blue;
+.inspirelogos div{
+    display:inline-block;
 }
 
 .feedback{
@@ -42,7 +44,8 @@ color:blue;
 }
 
 
-.companies{
+.companies div{
+    display:inline-block;
     color:green;
 }
 
@@ -52,6 +55,12 @@ color:blue;
 
 .footer{
     color:yellow;
+    background-color:brown;
+    padding:100px 100px;
+}
+
+.footer section{
+    display:inline-block;
 }
 
 
