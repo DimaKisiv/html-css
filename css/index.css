@@ -1,0 +1,57 @@
+body{
+    
+    text-align: center;
+}
+
+.header{
+    display: grid;
+    color:blue;
+    background-image: url("/img/frontimage.jpg");
+    width:100%;
+    background-repeat: no-repeat;
+}
+
+#toplogo{
+    color:blue;
+}
+
+.topmenu{
+    color:black;
+}
+
+.topmenu a{
+    color:orange;
+}
+
+.textaboveimage{
+    color:orange;
+}
+
+.textaboveimage{
+     color:orange;
+}
+
+section .inspirelogos{
+    display:flex;
+    justify-content:space-around;
+color:blue;
+}
+
+.feedback{
+   color:green;
+}
+
+
+.companies{
+    color:green;
+}
+
+.findus{
+    color:brown;
+}
+
+.footer{
+    color:yellow;
+}
+
+
